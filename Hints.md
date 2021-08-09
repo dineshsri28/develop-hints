@@ -23,9 +23,19 @@
     border: 1px solid #ddd;
     margin: 0;
     }
+<h4>Moment Format</h4>
 
+    moment(data.appointment_time, ["HH:mm:SS"]).format("hh:mmA");
+
+<h4>Run react another port</h4>
+
+    "scripts": {
+
+"start": "PORT=4200 react-scripts start",
+
+}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTMxNzE2NywtMTkzNDg3MTY2LDkxMT
-gyNDAxOV19
+eyJoaXN0b3J5IjpbNTk5NjgyNjAyLC0xOTM0ODcxNjYsOTExOD
+I0MDE5XX0=
 -->

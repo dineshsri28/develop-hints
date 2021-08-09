@@ -8,7 +8,29 @@
 
     const todisabledDate = (value) => {let yes = moment().subtract(1, "days");return value < yes;};
 
+<h4>Truncate Text</h4>
+<p>This css make the text as (...) if content overflow from the parent container
+
+    p {
+
+width: 200px;
+
+white-space: nowrap;
+
+overflow: hidden;
+
+display: inline-block;
+
+text-overflow: ellipsis;
+
+border: 1px solid #ddd;
+
+margin: 0;
+
+}
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ4NzE2Niw5MTE4MjQwMTldfQ==
+eyJoaXN0b3J5IjpbMTU4MDI0MzQ4NSwtMTkzNDg3MTY2LDkxMT
+gyNDAxOV19
 -->

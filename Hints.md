@@ -6,15 +6,9 @@
 <h4>Disable Date</h4>
 <p>For date picker to disable previous date</p>
 
-    const todisabledDate = (value) => {
-
-let yes = moment().subtract(1, "days");
-
-return value < yes;
-
-};
+    const todisabledDate = (value) => {let yes = moment().subtract(1, "days");return value < yes;};
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg3NTQwMTgsOTExODI0MDE5XX0=
+eyJoaXN0b3J5IjpbLTE5MzQ4NzE2Niw5MTE4MjQwMTldfQ==
 -->
